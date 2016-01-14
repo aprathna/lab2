@@ -14,16 +14,18 @@
 body {
      border: 1px dotted gray;
      padding: 20px;
+     background-image: url("http://41.media.tumblr.com/f748a1104f4a8d39cf5fdab0864ee44c/tumblr_n715vhrgDg1txq457o2_1280.png");
 }
 
 .jumbotron {
 	position: relative;
-	background: none;
+     background: none;
 }
 
 .jumbotron:after {
      content:"";
-     background: url("http://lorempixel.com/1140/283");
+     /*background: url("https://s-media-cache-ak0.pinimg.com/736x/91/3d/ec/913dec628279cd8ced0ccbcbcd296ce8.jpg");*/
+     background-size: 100%;
      opacity: 0.2;
      top: 0;
      left: 0;
@@ -39,8 +41,18 @@ p {
 
 .project p {
      font-variant: small-caps;
+     color: #FF6C75;
 }
 
 #project1 {
      font-variant: small-caps;
+}
+
+img {
+     height: 500px;
+     width: 500px;
+}
+
+.container h3{
+     color: #13E8AF;
 }
