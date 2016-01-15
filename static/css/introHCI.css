@@ -14,7 +14,7 @@
 body {
      border: 1px dotted gray;
      padding: 20px;
-     background-image: url("http://41.media.tumblr.com/f748a1104f4a8d39cf5fdab0864ee44c/tumblr_n715vhrgDg1txq457o2_1280.png");
+    /* background-image: url("http://41.media.tumblr.com/f748a1104f4a8d39cf5fdab0864ee44c/tumblr_n715vhrgDg1txq457o2_1280.png");*/
 }
 
 .jumbotron {
@@ -24,7 +24,7 @@ body {
 
 .jumbotron:after {
      content:"";
-     /*background: url("https://s-media-cache-ak0.pinimg.com/736x/91/3d/ec/913dec628279cd8ced0ccbcbcd296ce8.jpg");*/
+     background: url("http://41.media.tumblr.com/f748a1104f4a8d39cf5fdab0864ee44c/tumblr_n715vhrgDg1txq457o2_1280.png");
      background-size: 100%;
      opacity: 0.2;
      top: 0;
